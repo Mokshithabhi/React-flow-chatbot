@@ -1,5 +1,5 @@
 import React from 'react';
-import { Handle } from 'react-flow-renderer';
+import { Handle } from 'reactflow';
 
 export default function TextNode({ data }) {
   return (

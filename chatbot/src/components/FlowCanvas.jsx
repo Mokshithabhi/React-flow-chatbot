@@ -4,8 +4,8 @@ import ReactFlow, {
   addEdge,
   applyNodeChanges,
   applyEdgeChanges,
-} from "react-flow-renderer";
-import "react-flow-renderer/dist/style.css";
+} from "reactflow";
+import "reactflow/dist/style.css";
 import NodesPanel from "./NodesPanel";
 import SettingsPanel from "./SettingsPanel";
 import { validateFlow } from "../utils/validation";
